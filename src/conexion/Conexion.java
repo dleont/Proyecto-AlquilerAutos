@@ -26,7 +26,7 @@ public class Conexion {
      
         /* Llamar al método (Close) para cerrar la base de datos */
         close(getConnection());
-        
+        //hola
     }
     
     
