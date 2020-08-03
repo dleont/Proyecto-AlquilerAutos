@@ -17,7 +17,7 @@ public class VtnAdministrador extends javax.swing.JFrame {
     
     //Ventanas
     
-    LoginVista vntLogin;
+    Inicio vntLogin;
     InternaModeloCrear internaModelo;
     InternaModeloB_A_E internaModeloB_A_E;
     
@@ -318,7 +318,7 @@ public class VtnAdministrador extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         setVisible(false);
-        vntLogin = new LoginVista();
+        vntLogin = new Inicio();
         vntLogin.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

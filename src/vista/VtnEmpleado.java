@@ -15,7 +15,7 @@ public class VtnEmpleado extends javax.swing.JFrame {
      * Creates new form VentanaEmpleado
      */
     
-    LoginVista vntLogin;
+    Inicio vntLogin;
     
     InternaFacturaCrear internaFacturaCrear;
     InternaFacturaAnular internaFacturaAnular;
@@ -248,7 +248,7 @@ public class VtnEmpleado extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         setVisible(false);
-        vntLogin = new LoginVista();
+        vntLogin = new Inicio();
         vntLogin.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

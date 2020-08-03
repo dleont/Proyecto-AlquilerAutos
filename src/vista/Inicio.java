@@ -21,8 +21,8 @@ public class Inicio extends javax.swing.JFrame {
      * Creates new form LoginVista
      */
     
-    private VentanaEmpleado vtnEmpleado;
-    private VentanaAdministrador vtnAdministrador;
+    private VtnEmpleado vtnEmpleado;
+    private VtnAdministrador vtnAdministrador;
     
     
     private ControladorLogin controladorlogin;
@@ -182,11 +182,11 @@ public class Inicio extends javax.swing.JFrame {
             nomSuc=controladorAdministrador.buscarSucursal(tip_usu.getSuc_id());
             
             if(tip_usu.getTip_usuario()==1){
-                vtnAdministrador = new VentanaAdministrador(login.getUsername(),nomSuc);  
+                vtnAdministrador = new VtnAdministrador(login.getUsername(),nomSuc);  
                 vtnAdministrador.setVisible(true);
                 setVisible(false);
             }else if(tip_usu.getTip_usuario()==2){
-                vtnEmpleado = new VentanaEmpleado(login.getUsername(),nomSuc);  
+                vtnEmpleado = new VtnEmpleado(login.getUsername(),nomSuc);  
                 vtnEmpleado.setVisible(true);
                 setVisible(false);
             }else{
