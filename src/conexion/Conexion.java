@@ -14,7 +14,7 @@ import java.sql.SQLException;
  * @author Dennis Rivadeneira
  */
 
-
+//Base de datos
 /*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
     Clase para conectarse con la base de datos (SQL Developer) 
     y con una interfaz en Java NetBeans.
